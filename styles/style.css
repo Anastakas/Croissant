@@ -1,9 +1,23 @@
 body {
   background-color: #f8e8a6;
 }
-
-h1 {
+h1,
+p {
   text-align: center;
-  margin: 20px 0 20px 0;
 }
-.croissant
+h1 {
+  margin: 40px;
+}
+.croissant-image {
+  max-width: 100%;
+  display: block;
+  margin: 30px auto;
+  border-radius: 12px;
+}
+.navigation {
+  text-align: center;
+}
+.navigation a {
+  color: green;
+  margin: 0 12px;
+}
